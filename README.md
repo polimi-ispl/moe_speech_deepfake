@@ -22,9 +22,8 @@ This repository contains the code and resources for implementing the Mixture of 
 ├── src/                    # Source code modules and utility scripts
 ├── train_lcnn_model.py     # Script for training the LCNN expert model
 ├── train_moe_model.py      # Script for training the MoE model
-├── eval_lcnn_model.py      # Evaluation script for the LCNN model
+├── eval_lcnn_model.py      # Evaluation script for the LCNN expert model
 ├── eval_moe_model.py       # Evaluation script for the MoE model
-├── lcnn_model_2.py         # LCNN model definition (standalone or alternative version)
 ```
 
 ## Setup
