@@ -1,0 +1,32 @@
+---
+
+seed: 1234
+num_thread: 6
+prefetch_factor: 2
+
+num_epochs: 150
+early_stopping: 20
+lr: 0.0001
+weight_decay: 0.0001
+batch_size: 64
+win_len: 3.0
+
+T_max: 100
+eta_min: 0.00001
+
+save_model_folder: 'checkpoints/LCNN_model/'
+save_results_folder: 'results/'
+model_pretrained: 'LCNN_PRETRAINED.pth'
+
+moe_model_name: 'MOE_CLASSIC.pth'
+
+asvspoof2019_path: '/path/to/dataset/folder'
+for_path: '/path/to/dataset/folder'
+add2022_path: '/path/to/dataset/folder'
+InTheWild_path: '/path/to/dataset/folder'
+
+purdue_path: '/path/to/dataset/folder'
+ljspeech_path: '/path/to/dataset/folder'
+librispeech_path: '/path/to/dataset/folder'
+timit_tts_path: '/path/to/dataset/folder'
+vidtimit_path: '/path/to/dataset/folder'
